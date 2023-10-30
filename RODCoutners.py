@@ -68,6 +68,5 @@ class RODCounter:
         
         return f"Total count of rods passed: {self.rod_gaps_count}"
 
-# Example of how to use the class:
 counter = RODCounter('video.mp4', show_roi=True, show_video=False)
 print(counter.process_frames())
